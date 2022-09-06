@@ -74,12 +74,14 @@ export default function HomeScreen() {
         </div>
         <div className="article-main">
           <div className="news1">
-            <div className="combined-hover">
-              <img src={news1} alt="news1" />
-              <span className="font-face-bold title">
-                Exhibition: He Xiangyu monograph released by Distanz
-              </span>
-            </div>
+            <a href="#">
+              <div className="combined-hover">
+                <img src={news1} alt="news1" />
+                <span className="font-face-bold title">
+                  Exhibition: He Xiangyu monograph released by Distanz
+                </span>
+              </div>
+            </a>
             <span>From March 2016</span>
             <span>
               He Xiangyu and Liu Wei are among 74 international artists from 33
@@ -87,12 +89,14 @@ export default function HomeScreen() {
             </span>
           </div>
           <div className="news2">
-            <div className="combined-hover">
-              <img src={news2} alt="news2" />
-              <span className="font-face-bold title">
-                Exhibition: Runa Islam at SFMOMA, San Francisco
-              </span>
-            </div>
+            <a href="#">
+              <div className="combined-hover">
+                <img src={news2} alt="news2" />
+                <span className="font-face-bold title">
+                  Exhibition: Runa Islam at SFMOMA, San Francisco
+                </span>
+              </div>
+            </a>
             <span>From March 2016</span>
             <span>
               'Verso', SFMOMA's solo presentation of Bangladeshi-born British
