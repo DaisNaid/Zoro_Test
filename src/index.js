@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './css-test-2022/DINPro Bold/DINProBold.otf';
-import './css-test-2022/DINPro Regular/DINProRegular.otf';
+import './fonts/DINPro Bold/DINProBold.otf';
+import './fonts/DINPro Regular/DINProRegular.otf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
